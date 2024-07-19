@@ -1,0 +1,14 @@
+let a=10;
+let b=5;
+let result=a+b;
+console.log("add: ",result);
+document.getElementById('Result').innerHTML=`<p>Addition: ${result}</p>`;
+let substract=a-b;
+console.log("Substract: ",substract);
+document.getElementById('Subtract').innerHTML=`<p>Substract: ${substract}</p>`;
+let multiply=a*b;
+console.log("multiplya: ",multiply);
+document.getElementById('Multiply').innerHTML=`<p>Multiply: ${multiply}</p>`;
+let divide=a/b;
+console.log("Divided: ",divide);
+document.getElementById('Divide').innerHTML=`<p>Divide: ${divide}</p>`;

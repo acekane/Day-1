@@ -1,0 +1,12 @@
+let total=50;
+console.log("the total vale is: ",total);
+total+=10;
+console.log("After +=10=",total);
+total-=5;
+console.log("After -=5=",total);
+total*=2;
+console.log("After *=5=",total);
+total/=5;
+console.log("After /=5=",total);
+total%=4;
+console.log("After +=4=",total);
